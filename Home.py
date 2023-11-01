@@ -95,6 +95,7 @@ if st.sidebar.checkbox('Show related plots'):
   st.image('distribution 1.png')#, caption = "Distribution of Legit transcations & Fraudulent transcation")
   st.image('distribution 2.png')
   st.image('% distribution.png')
+if st.sidebar.checkbox('Time related  plot'):
   st.image('time density.png')
   st.image('total amount.png')
   st.image('tot no.of transca.png')
